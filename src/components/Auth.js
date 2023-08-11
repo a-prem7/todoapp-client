@@ -10,7 +10,7 @@ const Auth = () => {
 
   const [error, setError] = useState(null);
 
-  console.log(cookies);
+  // console.log(cookies);
 
   const viewLogin = (status) => {
     setError(null);
