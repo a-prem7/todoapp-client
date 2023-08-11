@@ -50,7 +50,7 @@ const App = () => {
           ))}
         </>
       )}
-      <p className="copyright"> Creative Coding ARC</p>
+      <p className="copyright"> Creative Coiding</p>
     </div>
   );
 };
