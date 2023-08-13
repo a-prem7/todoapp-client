@@ -44,7 +44,7 @@ const App = () => {
       {authToken && (
         <>
           <ListHeader listName={" TaskBuddy"} getData={getData} />
-          <p className="user-email"> Welcome back {userEmail} </p>
+          <p className="user-email"> Welcome back, {userEmail} </p>
           {sortedTasks?.map((task) => (
             <ListItem key={task.id} task={task} getData={getData} />
           ))}

@@ -221,3 +221,42 @@ auth-container {
 .task-title {
     width: 300px;
 }
+
+/* Media query for screens with max-width 788px */
+@media (max-width: 788px) {
+    .app {
+        width: 90%; /* Adjust width for smaller screens */
+        max-width: none; /* Remove max-width limitation */
+        margin-top: 20px; /* Adjust margin for better spacing */
+    }
+    
+    .list-item {
+        margin: 10px 0; /* Adjust margin for better spacing */
+        flex-direction: column; /* Stack item content vertically */
+        align-items: flex-start; /* Align item content to the left */
+        padding: 10px; /* Adjust padding for better spacing */
+        box-shadow: none; /* Remove box-shadow for a cleaner look */
+        border: 1px solid rgba(0, 0, 0, 0.05); /* Add a light border */
+    }
+    
+    .list-item .tick {
+        order: 1; /* Change the order of tick icon to appear after content */
+        margin: 10px 0; /* Adjust margin for better spacing */
+    }
+    
+    .list-item .tick svg {
+        width: 24px; /* Adjust tick icon size */
+        height: 24px;
+    }
+    
+    .list-item .info-container {
+        order: 2; /* Change the order of item info to appear after content */
+        width: 100%; /* Make info container full width */
+        justify-content: space-between; /* Distribute items evenly */
+    }
+    
+    .list-item .info-container button {
+        font-size: 12px; /* Adjust button font size */
+        padding: 6px 10px; /* Adjust button padding */
+    }
+}
