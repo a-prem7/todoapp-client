@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #d7e1f8;
+    background-color: #031237;
     display:flex;
     justify-content: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -59,17 +59,18 @@ margin-top: 50px;
 }
 
 .create {
-    border: 1.5px solid rgb(108, 115, 148);
-    color: rgb(108, 154, 148);
+    border: 1.5px solid rgb(116, 122, 152);
+    color: rgb(2, 57, 23);
     text-transform: uppercase;
+    background-color: rgb(186, 186, 241);
 }
 
 .create:hover {
     background-color: rgb(131, 138, 172);
 }
 .create:active {
-    background-color: rgb(108, 115, 148);
-    color: rgb(255, 255,255);
+    background-color: rgb(102, 127, 228);
+    color: rgb(245, 235, 235);
 }
 
 .signout {
@@ -197,15 +198,23 @@ auth-container {
 }
 
 .copyright {
+    
     font-size: 13px;
+    font-weight: bolder;
     margin: 10px;
-    color: rgb(114, 114, 114)
+    color: rgb(13, 12, 12)
 }
 .user-email {
     float: right;
-    font-size: 13px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
     margin: 10px;
-    color: rgb(114, 114, 114)
+    color: rgb(54, 5, 5)
+}
+
+.taskbuddy {
+    font-family: 'Times New Roman', Times, serif;
 }
 .outer-bar {
     width: 200px;

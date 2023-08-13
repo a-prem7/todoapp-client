@@ -48,7 +48,7 @@ const Auth = () => {
     <div className="auth-container">
       <div className="auth-container-box">
         <form onSubmit={(e) => handleSubmit(e, isLogIn ? "login" : "signup")}>
-          <h2> {isLogIn ? "Please log in" : "Please sign up!"}</h2>
+          <h2> {isLogIn ? "Login " : "Sign Up "}</h2>
           <input
             type="email"
             placeholder="email"
@@ -79,8 +79,8 @@ const Auth = () => {
             onClick={() => viewLogin(false)}
             style={{
               backgroundColor: !isLogIn
-                ? "rgb(255,255,255)"
-                : "rgb(188, 188, 188)",
+                ? "rgb(178,110,230)"
+                : "rgb(255,255,255)",
             }}
           >
             Sign Up
@@ -89,8 +89,8 @@ const Auth = () => {
             onClick={() => viewLogin(true)}
             style={{
               backgroundColor: isLogIn
-                ? "rgb(255,255,255)"
-                : "rgb(188, 188, 188)",
+                ? "rgb(178,110,230)"
+                : "rgb(255,255,255)",
             }}
           >
             Login
